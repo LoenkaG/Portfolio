@@ -12,6 +12,7 @@
     margin: 0px;
     padding: 0px;
     overflow-x: hidden;
+    min-width: 310px;
   }
 
   h1 {
@@ -240,6 +241,21 @@
     justify-content: center;
     align-items: center;
     color: #e3e3e3;
+  }
+
+  @media (max-width: 410px) {
+    .social-links i, .social-links a {
+      font-size: 1rem;
+    }
+  }
+
+  @media (max-width: 313px) {
+    .social-links i, .social-links a{
+      padding: 0 5px;
+    }
+    .navbar a {
+      padding: 5px;
+    }
   }
 
   @media (max-width: 670px) {
